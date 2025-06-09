@@ -1,0 +1,13 @@
+langchain-openai
+langchain-community
+langchain-core
+langchain-google-genai
+google-generativeai
+youtube-transcript-api
+faiss-cpu
+tiktoken
+python-dotenv
+requests
+duckduckgo-search
+jupyter
+ipywidgets
