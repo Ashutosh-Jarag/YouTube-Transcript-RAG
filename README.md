@@ -1,4 +1,6 @@
-🎥 YouTube Transcript RAG 🚀
+ # 🎥 YouTube Transcript RAG 🚀
+
+
 Welcome to YouTube Transcript RAG—a fun and powerful Python project that lets you dive into YouTube video transcripts like a pro! 📜 This Retrieval-Augmented Generation (RAG) system fetches transcripts, transforms them into searchable embeddings, and answers your questions with the help of advanced AI models. Whether you're curious about a video's content or need quick insights, this project has you covered! 😎
 🌟 What’s This All About?
 This project uses the magic of LangChain, FAISS, and AI models (like OpenAI and Google’s Gemini) to:
