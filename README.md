@@ -1,6 +1,4 @@
-# YouTube-Transcript-RAG
-Retrieval-Augmented Generation (RAG) system for YouTube video transcripts.
-YouTube Transcript RAG
+# YouTube Transcript RAG
 Overview
 YouTube Transcript RAG is a Python-based project that implements a Retrieval-Augmented Generation (RAG) system to process and query YouTube video transcripts. It fetches transcripts, creates embeddings, stores them in a FAISS vector store, and uses a language model to answer questions based on the transcript content. The system leverages LangChain for RAG pipeline construction and integrates with OpenAI and Google Generative AI models.
 Features
