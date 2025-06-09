@@ -21,7 +21,8 @@ Interactive Notebook: Run everything in a Jupyter notebook for easy experimentat
 
 📋 Requirements
 To get started, you’ll need Python 3.11+ and the following dependencies. Install them with:
-pip install -r requirements.txt
+
+cmd - "pip install -r requirements.txt"
 
 Key Dependencies
 
@@ -37,29 +38,30 @@ See the full list in requirements.txt.
 🚀 Getting Started
 Follow these steps to set up and run the project:
 
-Clone the Repository (if you’re using Git):
-git clone https://github.com/your-username/youtube-transcript-rag.git
-cd youtube-transcript-rag
+1.Clone the Repository (if you’re using Git):
+ - git clone https://github.com/your-username/youtube-transcript-rag.git
+ - cd youtube-transcript-rag
 
 
-Install Dependencies:
-pip install -r requirements.txt
+2.Install Dependencies:
+ - pip install -r requirements.txt
 
 
-Set Up API Keys:Create a .env file in the project root and add your API keys:
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_API_KEY=your_google_api_key
+3. Set Up API Keys:Create a .env file in the project root and add your API keys:
 
-Load them in the notebook:
-from dotenv import load_dotenv
-load_dotenv()
+ OPENAI_API_KEY=your_openai_api_key
+ GOOGLE_API_KEY=your_google_api_key
 
-
-Launch Jupyter Notebook:Open YT_RAG.ipynb in Jupyter:
-jupyter notebook
+4.Load them in the notebook:
+ - from dotenv import load_dotenv
+ - load_dotenv()
 
 
-Run the Notebook:Execute the cells to:
+5. Launch Jupyter Notebook:Open YT_RAG.ipynb in Jupyter:
+ - jupyter notebook
+
+
+6. Run the Notebook:Execute the cells to:
 
 Fetch a YouTube transcript by video ID.
 Index the transcript in a FAISS vector store.
